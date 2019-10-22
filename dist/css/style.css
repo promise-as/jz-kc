@@ -1,0 +1,49 @@
+.jz-title { text-align: center; }
+
+.jz-title h2 { font-size: 24px; line-height: 60px; color: #333333; }
+
+.jz-title h2 img { vertical-align: middle; }
+
+.jz-title .subtitle { font-size: 14px; line-height: 16px; color: #666666; }
+
+.jz-wx { width: 1200px; margin: 0 auto; }
+
+.jz-wx .wx-cont { padding-top: 40px; margin-right: -20px; zoom: 1; }
+
+.jz-wx .wx-cont:after { clear: both; }
+
+.jz-wx .wx-cont:before, .jz-wx .wx-cont:after { content: ""; display: table; }
+
+.jz-wx .wx-cont .cont-item { width: 590px; height: 180px; background-color: #ffffff; padding: 24px 24px 18px 12px; -webkit-box-sizing: border-box; box-sizing: border-box; float: left; margin-right: 20px; }
+
+.jz-wx .wx-cont .cont-item.wx-rm { background: url(../images/jz-rm.png); }
+
+.jz-wx .wx-cont .cont-item .item-l { margin-right: 20px; float: left; }
+
+.jz-wx .wx-cont .cont-item .item-l .l-bg { width: 160px; height: 60px; }
+
+.jz-wx .wx-cont .cont-item .item-l .l-rate { width: 140px; border-top: 1px dashed #8d8d8d; margin-left: 10px; font-size: 14px; line-height: 24px; color: #666666; text-align: center; padding-top: 10px; }
+
+.jz-wx .wx-cont .cont-item .item-l .l-rate span { display: block; }
+
+.jz-wx .wx-cont .cont-item .item-r { float: left; width: 372px; }
+
+.jz-wx .wx-cont .cont-item .item-r .r-title { font-size: 18px; line-height: 26px; color: #333333; margin-bottom: 2px; }
+
+.jz-wx .wx-cont .cont-item .item-r p { font-size: 14px; line-height: 22px; color: #666666; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; }
+
+.jz-wx .wx-cont .cont-item .item-r .r-btn { display: inline-block; height: 30px; line-height: 30px; padding: 0 10px; background-color: #5198f9; border-radius: 1px; font-size: 14px; color: #ffffff; margin-top: 8px; }
+
+.jz-ls { width: 1200px; margin: 0 auto; padding-top: 38px; }
+
+.jz-ls .ls-thead { margin-right: -6px; padding-top: 28px; }
+
+.jz-ls .ls-thead span { display: inline-block; padding: 0 22px; height: 40px; background-color: #f6f7f9; border: solid 1px #c1c1c1; font-size: 16px; line-height: 42px; color: #666666; cursor: pointer; margin-right: 4px; }
+
+.jz-ls .ls-thead span:hover { background-color: #5198f9; border: 1px solid #5198f9; color: #fff; }
+
+.jz-ls .ls-cont { padding-top: 25px; }
+
+.jz-ls .ls-cont .cont-item { width: 591px; background-color: #ffffff; border: 1px solid #000; padding: 20px; }
+
+.jz-ls .ls-cont .cont-item .item-l { width: 180px; height: 220px; }
