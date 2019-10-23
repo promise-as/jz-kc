@@ -16,7 +16,7 @@
 
 .jz-wx .wx-cont .cont-item { width: 590px; height: 180px; background-color: #ffffff; padding: 24px 24px 18px 12px; -webkit-box-sizing: border-box; box-sizing: border-box; float: left; margin-right: 20px; }
 
-.jz-wx .wx-cont .cont-item.wx-rm { background: url(../images/jz-rm.png); }
+.jz-wx .wx-cont .cont-item.wx-rm { background: url(https://img.thea.cn/public/platform/thea/201910/hbj/jz-kc/images/jz-rm.png); }
 
 .jz-wx .wx-cont .cont-item .item-l { margin-right: 20px; float: left; }
 
@@ -34,16 +34,162 @@
 
 .jz-wx .wx-cont .cont-item .item-r .r-btn { display: inline-block; height: 30px; line-height: 30px; padding: 0 10px; background-color: #5198f9; border-radius: 1px; font-size: 14px; color: #ffffff; margin-top: 8px; }
 
-.jz-ls { width: 1200px; margin: 0 auto; padding-top: 38px; }
+.jz-ls { width: 1200px; margin: 0 auto 46px; padding-top: 38px; }
 
-.jz-ls .ls-thead { margin-right: -6px; padding-top: 28px; }
+.jz-ls .ls-thead { text-align: center; margin-right: -6px; padding-top: 28px; }
 
 .jz-ls .ls-thead span { display: inline-block; padding: 0 22px; height: 40px; background-color: #f6f7f9; border: solid 1px #c1c1c1; font-size: 16px; line-height: 42px; color: #666666; cursor: pointer; margin-right: 4px; }
 
-.jz-ls .ls-thead span:hover { background-color: #5198f9; border: 1px solid #5198f9; color: #fff; }
+.jz-ls .ls-thead span.cur { background-color: #5198f9; border: 1px solid #5198f9; color: #fff; }
 
-.jz-ls .ls-cont { padding-top: 25px; }
+.jz-ls .ls-cont { padding-top: 25px; margin-right: -18px; zoom: 1; display: none; }
 
-.jz-ls .ls-cont .cont-item { width: 591px; background-color: #ffffff; border: 1px solid #000; padding: 20px; }
+.jz-ls .ls-cont.cur { display: block; }
 
-.jz-ls .ls-cont .cont-item .item-l { width: 180px; height: 220px; }
+.jz-ls .ls-cont:after { clear: both; }
+
+.jz-ls .ls-cont:before, .jz-ls .ls-cont:after { content: ""; display: table; }
+
+.jz-ls .ls-cont .cont-item { float: left; background-color: #ffffff; padding: 20px; margin-right: 18px; }
+
+.jz-ls .ls-cont .cont-item:last-child { margin-right: 0; }
+
+.jz-ls .ls-cont .cont-item .item-l { float: left; width: 180px; height: 220px; margin-right: 28px; }
+
+.jz-ls .ls-cont .cont-item .item-r { float: left; width: 336px; }
+
+.jz-ls .ls-cont .cont-item .item-r .r-name { font-size: 18px; line-height: 22px; color: #333333; margin-bottom: 8px; }
+
+.jz-ls .ls-cont .cont-item .item-r .r-name .top-teacher { display: inline-block; padding: 0 12px; height: 22px; background-color: #ddebff; border-radius: 11px; font-size: 12px; color: #6a7c95; margin-left: 10px; }
+
+.jz-ls .ls-cont .cont-item .item-r p { font-size: 14px; line-height: 22px; color: #666666; margin-bottom: 8px; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; }
+
+.jz-ls .ls-cont .cont-item .item-r .r-row { display: block; font-size: 14px; height: 38px; line-height: 40px; color: #333333; border-top: 1px dashed #cdcdcd; padding-left: 32px; background: url(https://img.thea.cn/public/platform/thea/201910/hbj/jz-kc/images/jz-icon_1.png) no-repeat 6px center; }
+
+.jz-ls .ls-cont .cont-item .item-r .r-btn { border-top: 1px dashed #cdcdcd; padding-top: 8px; }
+
+.jz-ls .ls-cont .cont-item .item-r .r-btn a { display: inline-block; }
+
+.jz-ls .ls-cont .cont-item .item-r .r-btn .btn-yy { padding: 0 10px; height: 28px; background-color: #ffffff; border-radius: 1px; border: solid 1px #5198f9; font-size: 14px; line-height: 30px; color: #5198f9; }
+
+.jz-ls .ls-cont .cont-item .item-r .r-btn .btn-yy:hover { background-color: #5198f9; color: #fff; }
+
+.jz-ls .ls-cont .cont-item .item-r .r-btn .btn-pj { float: right; font-size: 14px; line-height: 30px; color: #5198f9; padding-left: 14px; background: url(https://img.thea.cn/public/platform/thea/201910/hbj/jz-kc/images/jz-icon_2.png) no-repeat left center; }
+
+.jz-ls .ls-cont .cont-item .item-r .r-btn .btn-pj:hover { text-decoration: underline; }
+
+.jz-coupon { width: 1200px; height: 140px; margin: 0 auto; background: url(https://img.thea.cn/public/platform/thea/201910/hbj/jz-kc/images/jz-yhq.png) no-repeat; }
+
+.jz-coupon a { float: right; width: 98px; height: 98px; border-radius: 50%; margin: 21px 48px 0 0; }
+
+.jz-live { width: 1200px; margin: 0 auto; padding-top: 42px; }
+
+.jz-live .live-cont { padding-top: 26px; }
+
+.jz-live .live-cont ul { margin-right: -24px; zoom: 1; }
+
+.jz-live .live-cont ul:after { clear: both; }
+
+.jz-live .live-cont ul:before, .jz-live .live-cont ul:after { content: ""; display: table; }
+
+.jz-live .live-cont ul li { float: left; background-color: #ffffff; padding: 13px 13px 15px; margin-right: 23px; margin-bottom: 18px; }
+
+.jz-live .live-cont ul li .bg { width: 257px; height: 159px; }
+
+.jz-live .live-cont ul li .item-title { padding-top: 8px; width: 257px; font-size: 16px; line-height: 44px; color: #333333; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+.jz-live .live-cont ul li .item-row { font-size: 14px; line-height: 26px; color: #888888; }
+
+.jz-live .live-cont ul li .item-row .row-st { float: right; padding: 0 10px; color: #5198f9; border: 1px solid #5198f9; }
+
+.jz-live .live-cont ul li .item-row .row-st:hover { background-color: #5198f9; color: #fff; }
+
+.jz-jp { width: 1200px; margin: 0 auto 16px; }
+
+.jz-jp .jp-cont { padding-top: 35px; margin-right: -18px; zoom: 1; }
+
+.jz-jp .jp-cont:after { clear: both; }
+
+.jz-jp .jp-cont:before, .jz-jp .jp-cont:after { content: ""; display: table; }
+
+.jz-jp .jp-cont .cont-wyb { float: left; background-color: #ffffff; padding: 12px; margin-right: 16px; }
+
+.jz-jp .jp-cont .cont-item { float: left; width: 241px; padding: 16px; font-size: 18px; line-height: 27px; color: #333333; background-color: #fff; position: relative; margin-right: 18px; }
+
+.jz-jp .jp-cont .cont-item .rank { position: absolute; top: -4px; right: 13px; width: 43px; height: 42px; background: url(https://img.thea.cn/public/platform/thea/201910/hbj/jz-kc/images/jz-icon_3.png) no-repeat; font-size: 14px; font-weight: bold; line-height: 21px; color: #ffffff; text-align: center; }
+
+.jz-jp .jp-cont .cont-item .item-title { margin-bottom: 14px; }
+
+.jz-jp .jp-cont .cont-item .item-detail { padding: 12px; background-color: #f2f2f2; border-radius: 3px; margin-bottom: 25px; }
+
+.jz-jp .jp-cont .cont-item .item-detail .detail-row { font-size: 12px; line-height: 21px; color: #5198f9; }
+
+.jz-jp .jp-cont .cont-item .item-detail .detail-row span { color: #777777; }
+
+.jz-jp .jp-cont .cont-item .item-avatar li { display: inline-block; width: 54px; font-size: 14px; line-height: 27px; color: #666666; text-align: center; margin-right: 12px; }
+
+.jz-jp .jp-cont .cont-item .item-avatar li img { width: 46px; height: 46px; }
+
+.jz-jp .jp-cont .cont-item .item-avatar li span { display: block; }
+
+.jz-jp .jp-cont .cont-item .item-price { font-size: 20px; line-height: 27px; color: #ff7200; border-top: 4px solid #f4f4f4; padding-top: 17px; margin-top: 15px; }
+
+.jz-jp .jp-cont .cont-item .item-price .price-l i { font-size: 18px; font-style: normal; }
+
+.jz-jp .jp-cont .cont-item .item-price .price-r { float: right; font-size: 12px; line-height: 27px; color: #999999; }
+
+.jz-jp .jp-cont .cont-item .item-price .price-r .r-btn { display: inline-block; height: 24px; line-height: 24px; border-radius: 6px; border: solid 1px #405fe1; padding: 0 8px; font-size: 14px; color: #405fe1; }
+
+.jz-jp .jp-cont .cont-item .item-price .price-r .r-btn:hover { background-color: #405fe1; color: #fff; }
+
+.jz-tk { width: 1200px; height: 114px; margin: 0 auto; background: url(https://img.thea.cn/public/platform/thea/201910/hbj/jz-kc/images/jz-kst.png) no-repeat; }
+
+.jz-tk .tk-nav { width: 696px; float: left; margin-left: 320px; }
+
+.jz-tk .tk-nav li { display: inline-block; width: 170px; text-align: center; padding-top: 13px; position: relative; }
+
+.jz-tk .tk-nav li:after { content: ''; display: inline-block; width: 1px; height: 67px; background-color: #e2e2e2; position: absolute; right: 0; top: 25px; }
+
+.jz-tk .tk-nav li span { display: block; font-size: 16px; line-height: 21px; color: #444444; padding-top: 8px; }
+
+.jz-tk .tk-btn { float: right; padding: 0 18px 0 30px; height: 33px; line-height: 33px; -webkit-box-shadow: 0px 1px 8px 0px rgba(81, 152, 249, 0.53); box-shadow: 0px 1px 8px 0px rgba(81, 152, 249, 0.53); border-radius: 9px; border: solid 1px #5198f9; margin-right: 33px; margin-top: 40px; background: url(https://img.thea.cn/public/platform/thea/201910/hbj/jz-kc/images/jz-icon_8.png) no-repeat 11px center #5198f9; color: #fff; }
+
+.jz-jk { width: 1200px; margin: 30px auto 20px; }
+
+.jz-jk .jk-cont { margin-top: 32px; padding-top: 16px; zoom: 1; position: relative; }
+
+.jz-jk .jk-cont .cont-nz { width: 114px; height: 114px; background: url(https://img.thea.cn/public/platform/thea/201910/hbj/jz-kc/images/jz-nz.png) no-repeat; position: absolute; top: 0; bottom: 0; left: 0; right: 0; margin: auto; }
+
+.jz-jk .jk-cont:after { clear: both; }
+
+.jz-jk .jk-cont:before, .jz-jk .jk-cont:after { content: ""; display: table; }
+
+.jz-jk .jk-cont .cont-item { float: left; width: 591px; height: 225px; background-color: #ffffff; margin-right: 17px; margin-bottom: 16px; }
+
+.jz-jk .jk-cont .cont-item .item-bg { float: left; }
+
+.jz-jk .jk-cont .cont-item .item-detail { float: left; padding-top: 28px; margin-right: 17px; margin-left: 16px; }
+
+.jz-jk .jk-cont .cont-item .item-detail .detail-row { margin-bottom: 28px; zoom: 1; }
+
+.jz-jk .jk-cont .cont-item .item-detail .detail-row:after { clear: both; }
+
+.jz-jk .jk-cont .cont-item .item-detail .detail-row:before, .jz-jk .jk-cont .cont-item .item-detail .detail-row:after { content: ""; display: table; }
+
+.jz-jk .jk-cont .cont-item .item-detail .detail-row span { float: left; font-size: 18px; font-weight: bold; line-height: 23px; color: #333333; vertical-align: top; margin-right: 14px; }
+
+.jz-jk .jk-cont .cont-item .item-detail .detail-row p { float: left; width: 257px; font-size: 16px; line-height: 23px; color: #666666; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; }
+
+.jz-jk .jk-cont .cont-item:nth-of-type(2n) { margin-right: 0; }
+
+.jz-jk .jk-cont .cont-item:nth-of-type(2n) .item-bg { float: right; }
+
+.jz-jk .jk-cont .cont-item:nth-of-type(2n) .item-detail { padding-left: 24px; }
+
+.jz-jk .jk-btn { font-size: 18px; line-height: 48px; text-align: center; padding-top: 20px; }
+
+.jz-jk .jk-btn a { display: inline-block; border-radius: 4px; color: #ffffff; padding: 0 58px; margin: 0 20px; }
+
+.jz-jk .jk-btn .btn-ask { background-color: #fc8f1a; -webkit-box-shadow: 0px 1px 18px 0px rgba(252, 143, 26, 0.34); box-shadow: 0px 1px 18px 0px rgba(252, 143, 26, 0.34); }
+
+.jz-jk .jk-btn .btn-cheap { background-color: #5198f9; -webkit-box-shadow: 0px 1px 18px 0px rgba(81, 152, 249, 0.5); box-shadow: 0px 1px 18px 0px rgba(81, 152, 249, 0.5); }
